@@ -6,4 +6,3 @@ _site/
 node_modules
 Gemfile.lock
 .ruby-version
-
