@@ -11,4 +11,4 @@ encoding: utf-8
 markdown: kramdown
 highlighter: rouge
 
-exclude: ["sass", "README.md", "Gemfile", "Gemfile.lock"]
+exclude: ["sass", "node_modules", "gulpfile.js", "package.json", "README.md", "Gemfile", "Gemfile.lock"]
