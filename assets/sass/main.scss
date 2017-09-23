@@ -4,6 +4,7 @@
 @charset "UTF-8";
 @import url('font-awesome.min.css');
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url("https://cdn.rawgit.com/sweetpm/SPWebFonts/master/spwebfonts.min.css");
 
 /*
 	Read Only by HTML5 UP
@@ -49,6 +50,11 @@
 	$size-header: 23em;
 
 /* Basic */
+
+	.sweetpm {
+		font-family: _font(sweetpm);
+		font-size: 0.93em;
+	}
 
 	body {
 		background: _palette(bg);

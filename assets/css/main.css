@@ -1,5 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url("https://cdn.rawgit.com/sweetpm/SPWebFonts/master/spwebfonts.min.css");
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
@@ -965,6 +966,10 @@ body {
     margin-left: 8.3333333333%; } }
 
 /* Basic */
+.sweetpm {
+  font-family: "Rounded Elegance", sans-serif;
+  font-size: 0.93em; }
+
 body {
   background: #fff; }
 
