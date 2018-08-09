@@ -1,3 +1,5 @@
+'use strict';
+
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 
@@ -15,8 +17,8 @@ gulp.task('sass', function() {
       .pipe(gulp.dest(dist_path.css));
 });
 
-gulp.task('default', ['sass']);
+gulp.task('default', gulp.series('sass'));
 
 gulp.task('watch', function() {
-  gulp.watch([src_path.css + '/**/*.scss', src_path.css + '/**/*.sass'], ['sass']);
+  gulp.watch([src_path.css + '/**/*.scss', src_path.css + '/**/*.sass'], gulp.series('sass'));
 });
