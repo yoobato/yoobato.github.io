@@ -15,6 +15,6 @@
   "homepage": "https://daeyeol.me",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.2.1"
   }
 }
