@@ -1,2 +1,2 @@
 # Daeyeol Ryu
-My personal web page using Jekyll with Github pages.
+My personal web page.
