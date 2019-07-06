@@ -12,7 +12,7 @@
   },
   "author": "Daeyeol Ryu",
   "license": "ISC",
-  "homepage": "https://daeyeol.me",
+  "homepage": "https://yoobato.github.io",
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.1"
