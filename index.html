@@ -42,31 +42,6 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="./assets/favicon/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="./assets/favicon/favicon-16x16.png" sizes="16x16" />
-
-    <!-- JavaScript -->
-    <script type="text/javascript">
-        function addGreetings() {
-            var currentHour = (new Date()).getHours();
-            var greetingMsg = "Good ";
-
-            // Morning - 5:00 ~ 11:59
-            // Afternoon - 12:00 ~ 16:59
-            // Evening - 17:00 ~ 21:59
-            // Night - 22:00 ~ 4:59
-            if (currentHour >= 5 && currentHour < 12) {
-                greetingMsg += "Morning";
-            } else if (currentHour >= 12 && currentHour < 17) {
-                greetingMsg += "Afternoon";
-            } else if (currentHour >= 17 && currentHour < 22) {
-                greetingMsg += "Evening";
-            } else {
-                greetingMsg += "Night";
-            }
-
-            document.getElementById("greetings").innerText = greetingMsg;
-        }
-        window.onload = addGreetings;
-    </script>
 </head>
 
 <body>
@@ -104,7 +79,7 @@
                     <h3>About Me</h3>
                     <p><em>"Your time is limited, so don't waste it living someone else's life." - Steve Jobs</em></p>
                 </header>
-                <p><span id="greetings">Good Day</span>. I'm Daeyeol Ryu. I graduated <a href="https://yonsei.ac.kr" target="_blank">Yonsei University</a> with a double major in Psychology and Computer Science. Me as an engineer, work primarily with iOS/Android applications, however, I aim for the full-stack developer. Also, I was (and will be) a digital nomad enjoying workcation and side-projects. Recently, interested in React and AI.</p>
+                <p>Hello World! I'm Daeyeol Ryu. I graduated <a href="https://yonsei.ac.kr" target="_blank">Yonsei University</a> with a double major in Psychology and Computer Science. Me as an engineer, work primarily with iOS/Android applications, however, I aim for the full-stack developer. Also, I was (and will be) a digital nomad enjoying workcation and side-projects. Recently, interested in React and AI.</p>
             </div>
         </section>
 
